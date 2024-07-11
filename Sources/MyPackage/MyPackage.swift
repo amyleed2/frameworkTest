@@ -2,7 +2,8 @@
 // https://docs.swift.org/swift-book
 
 public struct MyPackage {
-    public private(set) var text = "Hello World"
+    
+    public static let shared = MyPackage()
     
     public init()
     
