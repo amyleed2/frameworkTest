@@ -7,4 +7,5 @@ Pods
 *.xcuserstate
 *.xcuserdatad
 .idea
+.swiftpm
 
