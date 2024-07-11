@@ -5,7 +5,9 @@ public struct MyPackage {
     
     public static let shared = MyPackage()
     
-    public init()
+    public init() {
+        
+    }
     
     public func test() {
         print("Test Completed!!")
