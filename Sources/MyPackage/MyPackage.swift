@@ -12,4 +12,8 @@ public struct MyPackage {
     public func test() {
         print("Test Completed!!")
     }
+    
+    public func testString() -> String {
+        return "반환해라"
+    }
 }
